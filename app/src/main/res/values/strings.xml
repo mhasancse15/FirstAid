@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">First Aid</string>
+    <string name="information">প্রয়োজনীয় তথ্য</string>
+    <string name="trainig">হাতে কলমে শিক্ষা</string>
+    <string name="first_aid">প্রাথমিক চিকিৎসা সহায়িকা</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="close_player_activity">Close Player activity</string>
+    <string name="prathomikaid">১ প্রাথমিক চিকিৎসা</string>
+</resources>

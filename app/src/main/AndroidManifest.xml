@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mhasancse.firstaid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SlashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/ApTheme" />
+        <activity android:name=".navActivity.FirstAidActivity" />
+        <activity android:name=".navActivity.InformationActivity" />
+        <activity android:name=".navActivity.TrainingActivity" />
+        <activity android:name=".navActivity.AboutActivity" />
+        <activity android:name=".detailsActivity.prathomikaid.GanHaraleActivity" />
+        <activity android:name=".detailsActivity.prathomikaid.MerudondhoBethaActivity" />
+        <activity android:name=".detailsActivity.prathomikaid.JointBathActivity"></activity>
+    </application>
+
+</manifest>

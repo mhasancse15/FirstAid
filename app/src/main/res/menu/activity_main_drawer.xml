@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_First_aid"
+            android:icon="@drawable/ic_action_aid"
+            android:title="First Aid" />
+        <item
+            android:id="@+id/nav_Information"
+            android:icon="@drawable/ic_action_information"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_Training"
+            android:icon="@drawable/ic_action_video"
+            android:title="Training " />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_action_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_action_rate"
+            android:title="Rate Us" />
+
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/ic_action_about"
+                    android:title="About US" />
+
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_action_exit"
+                    android:title="Exit" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
